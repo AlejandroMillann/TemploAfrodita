@@ -24,6 +24,8 @@ GET https://temploafrodita-api.onrender.com/api/oraculo
 
 ---
 
+##Más preguntas
+
 Problemas encontrados:
 El problema principal que hemos encontrado ha sido con el CORS, ya que no nos dejaba utilizar la API con el JSON dentro del html porque necesitábamos CORS.
 Además el inicio del Git nos ha costado hacerlo, y teníamos problemas para ver los cambios reflejados con cada commit dentro de las páginas.
