@@ -1,7 +1,11 @@
 import express from "express";
+import cors from "cors"; // <-- Importamos cors
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// Habilitar CORS para cualquier origen
+app.use(cors());
 
 app.get("/api/oraculo", (req, res) => {
   res.json({
