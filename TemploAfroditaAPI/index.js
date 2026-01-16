@@ -11,6 +11,10 @@ app.get("/api/oraculo", (req, res) => {
   });
 });
 
+app.get("/", (req, res) => {
+  res.send("💖 Servidor del Templo de Afrodita activo");
+});
+
 app.listen(PORT, () => {
   console.log("💖 Oráculo de Afrodita activo");
 });
